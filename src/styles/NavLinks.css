@@ -1,0 +1,32 @@
+.NavLinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #ff004c;
+  transition: width 0.3s ease;
+}
+
+.nav:hover {
+  color: #ff004c;
+}
+
+.nav:hover::after {
+  width: 100%;
+}
