@@ -1,0 +1,44 @@
+.coutainer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/public/assets/images/ghost-of-yotai.jpg");
+  background-size: cover;
+  background-position: center top;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 3rem;
+  color: white;
+}
+
+.title-section article {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.description-section {
+  width: 45%;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+/* Explore Button */
+.explore-btn {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #d62828;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #f77f00;
+  transform: scale(1.05);
+}
